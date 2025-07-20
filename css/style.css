@@ -1,0 +1,26 @@
+.wrapper {
+  display: inline-block;
+  position: relative;
+  height: 300vh;
+}
+
+.bars {
+  width: 500px;
+  display: block;
+  z-index: -1;
+  position: absolute;
+}
+
+.overlay {
+  position: absolute;
+  top: 107px;
+  left: 201px;
+  z-index: 1;
+}
+
+.overlay-2 {
+  position: absolute;
+  top: 156px;
+  left: 201px;
+  z-index: 1;
+}
